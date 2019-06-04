@@ -162,16 +162,21 @@ footer {
     margin: auto;
 }
 
+/* MEDIA QUERIES */
 
-@media screen (max-width: 980px) {
-
+@media screen and (max-width: 980px) {
+    header {
+        position: relative;
+    }
 }
 
-@media screen (max-width: 768px) {
-
+@media screen and (max-width: 768px) {
+    header {
+        position: relative;
+    }
 }
 
-@media screen (max-width: 640px) {
+@media screen and (max-width: 640px) {
     header {
         position: static;
     }
