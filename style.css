@@ -24,6 +24,7 @@ header {
     background-color: #ffffff;
     border-bottom: solid 5px #cccccc;
     height: 80px;
+    position: static;
 }
 
 
@@ -165,19 +166,22 @@ footer {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 980px) {
-    header {
-        position: relative;
+    .contactForum, .wrapper, .portSection {
+        width: 100%;
+        background-color: lightgreen;
     }
 }
 
 @media screen and (max-width: 768px) {
-    header {
-        position: relative;
+    .contactForum, .wrapper, .portSection {
+        width: 100%;
+        background-color: #333;
     }
 }
 
 @media screen and (max-width: 640px) {
-    header {
-        position: static;
+    .contactForum, .wrapper, .portSection {
+        width: 100%;
+        background-color: lightskyblue;
     }
 }
