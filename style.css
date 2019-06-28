@@ -165,6 +165,7 @@ CONTACT.HTML
     font-family: 'Abril Fatface', cursive;
     color: white;
     text-align: center;
+    text-shadow: 1px 1px black;
 }
 
 
@@ -177,8 +178,28 @@ CONTACT.HTML
     font-family: 'Abel', sans-serif;
 }
 
+
+#messageDiv {
+    width: 35%;
+    margin: 0 auto;
+}
+
+
+#messageBox {
+    margin-top: 30px;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+
+#placeholder {
+    font-family: 'Abel', sans-serif;
+}
+
 input {
     width: 35%;
+    box-shadow: 5px 5px black;
 }
 
 
@@ -186,6 +207,7 @@ input {
     margin-top: 30px;
     text-align: center;
 }
+
 
 
 .portSection {
