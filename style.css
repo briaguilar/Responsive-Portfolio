@@ -161,7 +161,7 @@ CONTACT.HTML
 
     /* /////////////// Stuff on top of the boxes///////////////*/
 #nameBox, #emailBox {
-    margin-top: 25px;
+    margin-top: 45px;
     font-family: 'Abril Fatface', cursive;
     color: white;
     text-align: center;
@@ -178,16 +178,14 @@ CONTACT.HTML
 }
 
 input {
-    width: 30%;
+    width: 35%;
 }
 
 
 #submit {
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
 }
-
-
 
 
 .portSection {
@@ -205,13 +203,3 @@ input {
 }
 
 /* MEDIA QUERIES */
-
-Collapse
-
-
-
-
-Message Input
-
-
-Jot something down
