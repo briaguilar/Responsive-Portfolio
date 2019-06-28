@@ -61,14 +61,7 @@ footer {
 
 
 
- #portTitle {
-    font-size: 40px;
-    border-bottom: 3px solid #dddddd;
-    border-width: 80%;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 10px;
-}
+
 
 /*//////////////////////////////////////////
 INDEX.HTML CONENT
@@ -88,6 +81,7 @@ INDEX.HTML CONENT
     padding-right: 20px;
     height: 50%;
 }
+
 
 .bri:hover {
     background-color: #ffffff;
@@ -210,18 +204,38 @@ input {
 
 
 
-.portSection {
-    width: 960px;
-    background-color: white;
-    height: 600px;
-    margin: 0 auto;
-    margin-top: 50px;
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////
+PORTFOLIO.HTML
+////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#portfolioTitle {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    border-width: 80%;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
 }
 
 
-#group {
-    width: 960px;
-    margin: auto;
+#triviaGameImage {
+    margin-top: 30px;
+    width: 400px;
+    box-shadow: 2px 2px black;
 }
+
+
+#triviaGameImage:hover {
+    margin-top: -10;
+    cursor: pointer;
+    background-image: url("images/Trivia2.png");
+}
+
 
 /* MEDIA QUERIES */
