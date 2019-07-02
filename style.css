@@ -87,7 +87,8 @@ INDEX.HTML CONENT
 
 .aboutMe {
     font-family: 'Abel', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
+    border-bottom: 1px black solid;
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 10px;
