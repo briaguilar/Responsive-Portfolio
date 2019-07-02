@@ -86,8 +86,8 @@ INDEX.HTML CONENT
     ///////////////////////////////////////////////////////////////////////////////////////*/
 
 .aboutMe {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-family: 'Abel', sans-serif;
+    font-size: 50px;
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 10px;
@@ -117,15 +117,15 @@ img {
 
 
 .content {
-    background-color: rgb(14, 15, 19);
-    opacity: .8;
-    border-color: #dddddd;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    opacity: .95;
+    border: 1px double #ffffff;
+    color: black;
     width: 960px;
     height: 500px;
     margin: auto;
     margin-bottom: 40px;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 
@@ -288,6 +288,10 @@ MYSKILLS.HTML
 
 
 #nodePic {
+    background-color: white;
+}
+
+#jqueryPic {
     background-color: white;
 }
 
