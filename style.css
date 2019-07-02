@@ -20,12 +20,32 @@ time, mark, audio, video {
 }
 
 
+
 header {
     background-color: #ffffff;
     border-bottom: black 1px solid;
     height: 62px;
     opacity: .9;
 }
+
+
+.bri {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    display: inline-block;
+    background-color: rgb(21, 20, 27);
+    opacity: .95;
+    color: white;
+    margin: 0 auto;
+    margin-left: 100px;
+    padding: 6px;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50%;
+}
+
+
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -44,12 +64,13 @@ nav {
     overflow: hidden;
     float: right;
     padding: 20px 20px;
+    margin-right: 100px;
 }
 
 
 footer {
     background-color: #000000;
-    opacity: .8;
+    opacity: .92;
     border-top: 8px solid rgb(43, 43, 43);
     height: 60px;
     position: fixed;
@@ -61,26 +82,11 @@ footer {
 
 
 
-
-
 /*//////////////////////////////////////////
 INDEX.HTML CONENT
 //////////////////////////////////////////*/
 
-.bri {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 35px;
-    display: inline-block;
-    background-color: rgb(21, 20, 27);
-    opacity: .95;
-    color: white;
-    margin: 0 auto;
-    padding: 6px;
-    padding-top: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 50%;
-}
+
 
 
 .bri:hover {
@@ -121,6 +127,7 @@ img {
 .wrapper {
     padding: 20px;
     height: auto;
+    margin-left: 80px;
 }
 
 
@@ -133,8 +140,20 @@ img {
     height: 500px;
     margin: auto;
     margin-bottom: 40px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
+
+
+#linkedin {
+    margin: 0 auto;
+}
+
+
+#links {
+    text-align: center;
+}
+
+
 
 
 
@@ -203,6 +222,11 @@ input {
 }
 
 
+#submit:hover {
+    margin-top: 25px;
+}
+
+
 
 
 
@@ -213,6 +237,7 @@ PORTFOLIO.HTML
 
 
 #portfolioTitle {
+    font-family: 'DM Serif Display', serif;
     font-size: 40px;
     text-align: center;
     color: white;
@@ -224,18 +249,27 @@ PORTFOLIO.HTML
 }
 
 
-#triviaGameImage {
-    margin-top: 30px;
+#triviaGameImage, #giftasticImage, #trainSchedulerImage {
+    margin-top: 40px;
     width: 400px;
-    box-shadow: 2px 2px black;
+    box-shadow: 8px 8px rgb(43, 41, 41);
+}
+
+#giftasticImage {
+    margin-left: 10px;
 }
 
 
-#triviaGameImage:hover {
-    margin-top: -10;
+#triviaGameImage:hover,
+#giftasticImage:hover, 
+#trainSchedulerImage:hover {
     cursor: pointer;
-    background-image: url("images/Trivia2.png");
+    position: relative;
+    margin-top: 20px;
 }
+
+
+
 
 
 /* MEDIA QUERIES */

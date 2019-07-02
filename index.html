@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-        <meta charset="UTF-8">
-        <title>BRI AGUILAR</title>
+    <meta charset="UTF-8">
+    <title>BRI AGUILAR</title>
 
     <!--Google Fonts Reference-->
-    <link href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|DM+Serif+Display|Montserrat|Shadows+Into+Light&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|DM+Serif+Display|Montserrat|Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+
+    <!--jQuery Reference-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!--Semantic UI-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+
     <!--CSS Reference-->
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -30,9 +41,10 @@
 
     <!-------------------------------------Content------------------------------------------------>
     <div class="wrapper">
-        <section class="content">
+        <div class="content">
             <h1 class="aboutMe">About Me</h1>
-            <img src="/Users/briaguilar/Documents/Bootcamp/Basic-Portfolio/assets/images/profpic.PNG" alt="picture of me" height=300 width=250 margin-bottom: 5px;>
+            <img src="/Users/briaguilar/Documents/Bootcamp/Basic-Portfolio/assets/images/profpic.PNG"
+                alt="picture of me" height=300 width=250 margin-bottom: 5px;>
             <br>
             <div class="aboutMePara">
                 <p>Born: Dallas, TX</p>
@@ -44,16 +56,24 @@
                 <p>Southern Methodist University</p>
                 <p>Trilogy Full Stack Developer Bootcamp - August 2019</p>
             </div>
-        </section>
+        </div>
     </div>
+
+    <div id="links">
+        <button id="linkedin" class="ui circular linkedin icon button">
+            <i class="linkedin icon"></i>
+        </button>
+    </div>
+
 
 
     <!--------------------------------------Footer----------------------------------------------->
     <footer></footer>
 
 
-    
+
     <!--Javascript Reference-->
     <script src="portfolio.js"></script>
 </body>
+
 </html>
